@@ -78,19 +78,11 @@ Each peripheral is owned by exactly one source file.
 ## Hardware
 
 - Microcontroller: TM4C1294NCPDT
-- 4x3 matrix keypad *(confirm layout)*
+- 4x3 matrix keypad
 - Potentiometer on ADC0
 - RGB LED
 - Buzzer driven by hardware PWM
 - Serial (UART) connection to a terminal emulator
-
-## Building and running
-
-<!-- Replace with your toolchain and steps, e.g. Keil uVision / Code Composer Studio / arm-none-eabi-gcc + OpenOCD -->
-
-1. Open the project in your toolchain and build all modules.
-2. Flash to the board.
-3. Connect a terminal emulator at your configured baud rate (8-N-1) to display the clock.
 
 ## Licence
 
