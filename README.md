@@ -1,5 +1,7 @@
 # Embedded Digital Clock System
 
+<img width="4284" height="5712" alt="20261006_222428260_iOS (1)" src="https://github.com/user-attachments/assets/d69d86de-a79b-499c-a16f-d89d037c1631" /> <img width="4284" height="5712" alt="20261006_222431193_iOS (1)" src="https://github.com/user-attachments/assets/f21c1e0f-7e4e-4715-9d1b-0b006c617739" />
+
 Register-level C firmware for a digital clock with alarm on the Texas Instruments Tiva TM4C1294NCPDT. Developed for 2303ENG Embedded Systems (Griffith University).
 
 The system is interrupt-driven and written against peripheral registers directly, with no vendor driver libraries. Time is rendered to a serial terminal, and the clock and alarm are configured with a matrix keypad and a potentiometer.
@@ -76,7 +78,7 @@ Each peripheral is owned by exactly one source file.
 ## Hardware
 
 - Microcontroller: TM4C1294NCPDT
-- 4x4 matrix keypad *(confirm layout)*
+- 4x3 matrix keypad *(confirm layout)*
 - Potentiometer on ADC0
 - RGB LED
 - Buzzer driven by hardware PWM
@@ -92,4 +94,4 @@ Each peripheral is owned by exactly one source file.
 
 ## Licence
 
-<!-- Add a licence, or note that this is coursework -->
+2303ENG Embedded Systems (Griffith University)
